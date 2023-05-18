@@ -10,6 +10,6 @@ ColorTools.getAverageRGB(IMAGE_URL);
 ColorTools.getAverageHex(IMAGE_URL);
 ColorTools.getMedianRGB(IMAGE_URL);
 ColorTools.getMedianHex(IMAGE_URL);
-ColorTools.convertToRGB(IMAGE_URL);
-ColorTools.convertToHex(IMAGE_URL);
+ColorTools.convertToRGB(HEX_COLOR);
+ColorTools.convertToHex(rgb(red,green,blue));
 ```
