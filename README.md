@@ -5,7 +5,7 @@ A custom node library that allows me to do various things with colors such as fi
 1. Download `index.js` and put it in a folder named something like `ColorTools`
 2. Use the following code
 ```
-const ColorTools = require(./requests);
+const ColorTools = require('../ColorTools');
 ColorTools.getAverageRGB(IMAGE_URL);
 ColorTools.getAverageHex(IMAGE_URL);
 ColorTools.getMedianRGB(IMAGE_URL);
